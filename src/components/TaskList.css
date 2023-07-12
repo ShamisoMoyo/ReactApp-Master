@@ -1,0 +1,22 @@
+.tasks {
+    list-style: none;
+    position: relative;
+    max-width: 700px;
+    margin: auto auto;
+}
+
+.tasks li {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+li span:hover {
+    cursor: pointer;
+    color: rgb(31, 165, 255);
+}
+
+button {
+    position: absolute;
+    right: 20px;
+}
